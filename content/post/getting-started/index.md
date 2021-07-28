@@ -47,6 +47,52 @@ categories:
 
 {{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
 
+The singular value decomposition (SVD) is a factorization of any $m\times n$ matrix and it can be seen as a generalization of eigendecompostion which can only be applied to diagonalizable matrices. And the SVD also has multiple applications in different fields. This article explains the basic theory of the SVD and its geometric interpretation.
+
+## The Matrices in the SVD
+There is an important fact that every real symmetric matrix $S$ has the factorization: $S = Q\Lambda Q^{-1}=Q\Lambda Q^\mathrm{T}$ with orthonormal eigenvectors in [公式] and real eigenvalues in [公式]. Suppose that [公式] is an [公式] matrix, then [公式] and [公式] are symmetric matrices. So it is not difficult to diagonalize [公式] or [公式] using a matrix with a set of orthonormal eigenvectors in its columns. Suppose that [公式] are orthonormal eigenvectors of [公式] and [公式] are eigenvalues of [公式] . Then for [公式], we have
+
+[公式]
+
+It is evident that the eigenvalues of [公式] equal the eigenvalues of [公式] . Similarly, we can find another orthogonal set [公式] (orthonormal eigenvectors of [公式] ). Now, we have
+
+[公式]
+
+[公式] [公式]
+
+The [公式] 's are singular values, square roots of the eigenvalues of [公式] and [公式] . From equations(1), we can get
+
+[公式]
+
+Since [公式], it is easy to find [公式]
+
+[公式] .
+
+Suppose that singular values [公式] to [公式] are positive numbers. Then the equations (3) [公式]show that[公式][公式]
+
+[公式][公式]
+
+or [公式]. Now we include [公式] more [公式] 's and [公式] more [公式] 's in orthogonal matrices [公式] and [公式] .Finally, [公式] becomes [公式] ,i.e. [公式].
+
+### Theorem
+
+Any [公式] matrix [公式] has a decomposition [公式] .
+
+[公式] is an [公式] orthogonal matrix.
+
+[公式] is an [公式] orthogonal matrix.
+
+[公式] is an [公式] matrix [公式] , in which [公式] .
+
+We usually put the singular values of [公式] in descending order, [公式] [公式] [公式] . This kind of factorization is called the singular value decomposition(SVD).
+
+## The Geometry of the SVD
+After explaining the matrices in the SVD, let's look at the SVD from a different perspective. The geometric meanings of the SVD are great intuitive interpretations of this kind of factorization. We know that every symmetric matrix [公式] has decomposition: [公式]. This represents a transformation:(rotate)(stretch)(rotate back).
+
+As for the singular value decomposition, any matrix can be separated into three pieces: orthogonal matrix, "diagonal" matrix, another orthogonal matrix. Let's consider a linear transformation [公式] , in which [公式] using SVD. The geometric meanings of this transformation is :(rotate)(stretch)(rotate). The following picture illustrates the geometry behind the SVD when matrix [公式] is a [公式] matrix.
+
+
+
 ## Get Started
 
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
