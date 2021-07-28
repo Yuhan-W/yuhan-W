@@ -14,13 +14,13 @@ organizations:
   url: http://www.xjtu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include machine learning, deep learning and artificial intelligence.
 
 # Interests to show in About widget
 interests:
 - Machine Learning
-- Computational Linguistics
-- Information Retrieval
+- Deep Learning
+- Artificial Intelligence
 
 # Education to show in About widget
 education:
@@ -51,10 +51,10 @@ social:
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/Yuhan-W
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/yuhan-wang-848a4717a/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
