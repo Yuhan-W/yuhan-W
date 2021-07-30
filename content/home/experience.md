@@ -26,7 +26,7 @@ experience:
     company: Xi'an Jiaotong University
     company_url: 'http://www.xjtu.edu.cn/'
     company_logo: org-gc
-    location: SN, China
+    location: SN
     date_start: '2021-9'
     date_end: ''
     description: |2-
@@ -40,7 +40,7 @@ experience:
     company: Xi'an Jiaotong University
     company_url: 'http://www.xjtu.edu.cn/'
     company_logo: org-x
-    location: SN, China
+    location: SN
     date_start: '2020-9'
     date_end: '2024-6'
     description: Receive bachelor's degree in computer science and technology.
