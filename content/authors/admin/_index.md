@@ -31,9 +31,9 @@ education:
   #- course: MEng in Artificial Intelligence
    # institution: Massachusetts Institute of Technology
     #year: 2009
-  - course: BSc in Computer Science
+  - course: BEng in Computer Science
     institution: Xi'an Jiaotong University
-    year: 2020-2024
+    year: 2020-present
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -70,8 +70,6 @@ email: ""
 highlight_name: false
 ---
 
-Yuhan Wang is a student of computer science at Xi'an Jiaotong University. His research interests include machine learning, artificial intelligence and data analysis. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Yuhan Wang is currently a student of computer science at Xi'an Jiaotong University. His research interests include machine learning, deep learning, and artificial intelligence.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
