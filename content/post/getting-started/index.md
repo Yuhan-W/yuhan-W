@@ -23,7 +23,7 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'Figure 1'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -42,100 +42,43 @@ categories:
 The singular value decomposition (SVD) is a factorization of any $m\times n$ matrix and it can be seen as a generalization of eigendecompostion which can only be applied to diagonalizable matrices. And the SVD also has multiple applications in different fields. This article explains the basic theory of the SVD and its geometric interpretation.
 
 ## The Matrices in the SVD
-There is an important fact that every real symmetric matrix $S$ has the factorization: $S = Q\Lambda Q^{-1}=Q\Lambda Q^\mathrm{T}$ with orthonormal eigenvectors in $Q$ and real eigenvalues in $\Lambda$. Suppose that $A$ is an $m\times n$ matrix, then $A^{\mathrm{T}}A$ and $AA^{\mathrm{T}}$ are symmetric matrices. So it is not difficult to diagonalize $A^{\mathrm{T}}A$ or $AA^{\mathrm{T}}$ using a matrix with a set of orthonormal eigenvectors in its columns. Suppose that $\boldsymbol {v_{1}},…\boldsymbol {v_{n}}$ are orthonormal eigenvectors of [公式] and [公式] are eigenvalues of [公式] . Then for [公式], we have
+There is an important fact that every real symmetric matrix $S$ has the factorization: $S = Q\Lambda Q^{-1}=Q\Lambda Q^\mathrm{T}$ with orthonormal eigenvectors in $Q$ and real eigenvalues in $\Lambda$. Suppose that $A$ is an $m\times n$ matrix, then $A^{\mathrm{T}}A$ and $AA^{\mathrm{T}}$ are symmetric matrices. So it is not difficult to diagonalize $A^{\mathrm{T}}A$ or $AA^{\mathrm{T}}$ using a matrix with a set of orthonormal eigenvectors in its columns. Suppose that $\boldsymbol v_{1},…\boldsymbol v_{n}$ are orthonormal eigenvectors of $ A^{\rm{T}}A$ and $ \lambda_1,…\lambda_n$ are eigenvalues of $ A^{\rm{T}}A$ . Then for   $1\leq i\leq n$, we have
 
-[公式]
+$$\begin{align*} ||A\boldsymbol v_i||^2 &=(A\boldsymbol v_i)^{\rm{T}}A\boldsymbol v_i =\boldsymbol v_i^{\rm{T}}A^{\rm{T}}A\boldsymbol v_i\\ &=\boldsymbol v_i^{\rm{T}}(\lambda_i\boldsymbol v_i)=\lambda_i\geq0 \end{align*}$$
 
-It is evident that the eigenvalues of [公式] equal the eigenvalues of [公式] . Similarly, we can find another orthogonal set [公式] (orthonormal eigenvectors of [公式] ). Now, we have
+It is evident that the eigenvalues of $AA^{\rm{T}}$ equal the eigenvalues of $A^{\rm{T}}A$ . Similarly, we can find another orthogonal set $\boldsymbol u_1,…\boldsymbol u_m$ (orthonormal eigenvectors of $AA^{\rm{T}}$ ). Now, we have
 
-[公式]
+$$\begin{align}A^{\rm{T}}A\boldsymbol v_i=\sigma_i^2\boldsymbol v_i\\AA^{\rm{T}}\boldsymbol u_ i=\sigma_i^2\boldsymbol u_i\end{align}$$
 
-[公式] [公式]
+The $\sigma$ 's are singular values, square roots of the eigenvalues of $A^{\rm{T}}A$ and $ AA^{\rm{T}}$ . From equations(1), we can get
 
-The [公式] 's are singular values, square roots of the eigenvalues of [公式] and [公式] . From equations(1), we can get
+$$AA^{\rm{T}}(A\boldsymbol v_i)=A(A^{\rm{T}}A)\boldsymbol v_i = \sigma_i^2(A\boldsymbol v_i)$$
 
-[公式]
+Since $||A\boldsymbol v_i||=\sigma_i$, it is easy to find $$\begin{align}A\boldsymbol v_i=\sigma_i\boldsymbol u_i \end{align}$$ 
 
-Since [公式], it is easy to find [公式]
+Suppose that singular values $\sigma_1$ to $\sigma_r$ are positive numbers. Then the equations (3) show that
+$$ A \left [ \begin{matrix} \boldsymbol v_1,&…&\boldsymbol v_r   \end{matrix} \right ] =  \left [ \begin{matrix} \boldsymbol u_1,&…&\boldsymbol u_r   \end{matrix} \right ] \left [  \begin{matrix} \sigma_1&  \\ &\ddots\\  & &\sigma_r \end{matrix} \right ]$$
 
-[公式] .
-
-Suppose that singular values [公式] to [公式] are positive numbers. Then the equations (3) [公式]show that[公式][公式]
-
-[公式][公式]
-
-or [公式]. Now we include [公式] more [公式] 's and [公式] more [公式] 's in orthogonal matrices [公式] and [公式] .Finally, [公式] becomes [公式] ,i.e. [公式].
+or $AV_r=U_r\Sigma_r$. Now we include $n-r$ more $\boldsymbol{v}$ 's and $m-r$ more $\boldsymbol u$ 's in orthogonal matrices $V$ and $U$ .Finally, $AV_r=U_r\Sigma_r$ becomes $AV=V\Sigma$ ,i.e. $A=U\Sigma V^{\rm{T}}$.
 
 ### Theorem
 
-Any [公式] matrix [公式] has a decomposition [公式] .
+Any $m\times n$ matrix $A$ has a decomposition $A=U\Sigma V^{\mathrm{T}}$ .
 
-[公式] is an [公式] orthogonal matrix.
+$U$ is an $m\times m$ orthogonal matrix.
 
-[公式] is an [公式] orthogonal matrix.
+$V$ is an $n\times n$ orthogonal matrix.
 
-[公式] is an [公式] matrix [公式] , in which [公式] .
+$\Sigma$ is an $m\times n$ matrix $ \left [ \begin{matrix} \Sigma_r&0 \\ 0&0\\ \end{matrix} \right ] $ , in which $\Sigma_r= \left [  \begin{matrix} \sigma_1&  \\ &\ddots\\  & &\sigma_r \end{matrix} \right ]$ .
 
-We usually put the singular values of [公式] in descending order, [公式] [公式] [公式] . This kind of factorization is called the singular value decomposition(SVD).
+We usually put the singular values of $A$ in descending order, $\sigma_1\geq \sigma_2\geq …\sigma_r>0$. This kind of factorization is called the singular value decomposition (SVD).
 
 ## The Geometry of the SVD
-After explaining the matrices in the SVD, let's look at the SVD from a different perspective. The geometric meanings of the SVD are great intuitive interpretations of this kind of factorization. We know that every symmetric matrix [公式] has decomposition: [公式]. This represents a transformation:(rotate)(stretch)(rotate back).
+After explaining the matrices in the SVD, let's look at the SVD from a different perspective. The geometric meanings of the SVD are great intuitive interpretations of this kind of factorization. We know that every symmetric matrix $S$ has decomposition: $S = Q\Lambda Q^{-1}=Q\Lambda Q^{\rm{T}}$. This represents a transformation:(rotate)(stretch)(rotate back).
 
-As for the singular value decomposition, any matrix can be separated into three pieces: orthogonal matrix, "diagonal" matrix, another orthogonal matrix. Let's consider a linear transformation [公式] , in which [公式] using SVD. The geometric meanings of this transformation is :(rotate)(stretch)(rotate). The following picture illustrates the geometry behind the SVD when matrix [公式] is a [公式] matrix.
+As for the singular value decomposition, any matrix can be separated into three pieces: orthogonal matrix, "diagonal" matrix, another orthogonal matrix. Let's consider a linear transformation $T: \boldsymbol x\rightarrow A \boldsymbol x$ , in which $ A\boldsymbol x=U\Sigma V^{\rm{T}}\boldsymbol x$ using SVD. The geometric meanings of this transformation is :(rotate)(stretch)(rotate). The following picture illustrates the geometry behind the SVD when matrix $A$ is a $2\times 2$ matrix.
 
-
-
-## Get Started
-
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/guide/update/) and [Release Notes](https://wowchemy.com/updates/)
-
-## Crowd-funded open-source software
-
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
-
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/plans/)
-
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/plans/) awesome rewards and extra features 🦄✨**
-
-## Ecosystem
-
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
-
-## Inspiration
-
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
-
-## Features
-
-- **Page builder** - Create *anything* with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
-
-## Themes
-
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
-
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
 
 ## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
 
 Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
