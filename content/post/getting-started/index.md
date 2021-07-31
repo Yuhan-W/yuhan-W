@@ -3,7 +3,7 @@ title: The Singular Value Decomposition (SVD)
 subtitle: Linear algebra
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: This article explains the basic theory of the SVD and its geometric interpretation.
 
 # Link this post with a project
 projects: []
@@ -48,13 +48,13 @@ $$||A\boldsymbol v_i||^2 =(A\boldsymbol v_i)^{\rm{T}}A\boldsymbol v_i =\boldsymb
 
 It is evident that the eigenvalues of $AA^{\rm{T}}$ equal the eigenvalues of $A^{\rm{T}}A$ . Similarly, we can find another orthogonal set $\boldsymbol u_1,…\boldsymbol u_m$ (orthonormal eigenvectors of $AA^{\rm{T}}$ ). Now, we have
 
-$$\begin{align}A^{\rm{T}}A\boldsymbol v_i=\sigma_i^2\boldsymbol v_i\\\\AA^{\rm{T}}\boldsymbol u_ i=\sigma_i^2\boldsymbol u_i\end{align}$$
+$$A^{\rm{T}}A\boldsymbol v_i=\sigma_i^2\boldsymbol v_i\ (1) \\\\AA^{\rm{T}}\boldsymbol u_ i=\sigma_i^2\boldsymbol u_i\ (2)$$
 
 The $\sigma$ 's are singular values, square roots of the eigenvalues of $A^{\rm{T}}A$ and $ AA^{\rm{T}}$ . From equations(1), we can get
 
 $$AA^{\rm{T}}(A\boldsymbol v_i)=A(A^{\rm{T}}A)\boldsymbol v_i = \sigma_i^2(A\boldsymbol v_i)$$
 
-Since $||A\boldsymbol v_i||=\sigma_i$, it is easy to find $$\begin{align}A\boldsymbol v_i=\sigma_i\boldsymbol u_i\end{align}$$ 
+Since $||A\boldsymbol v_i||=\sigma_i$, it is easy to find $$A\boldsymbol v_i=\sigma_i\boldsymbol u_i\ (3)$$ 
 
 Suppose that singular values $\sigma_1$ to $\sigma_r$ are positive numbers. Then the equations (3) show that
 $$ A \left [ \begin{matrix} \boldsymbol v_1,&…&\boldsymbol v_r   \end{matrix} \right ] =  \left [ \begin{matrix} \boldsymbol u_1,&…&\boldsymbol u_r   \end{matrix} \right ]\begin{bmatrix} \sigma_1 &  & \\\\ & \ddots & \\\\ & & \sigma_r \end{bmatrix} $$
