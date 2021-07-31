@@ -44,7 +44,7 @@ The singular value decomposition (SVD) is a factorization of any $m\times n$ mat
 ## The Matrices in the SVD
 There is an important fact that every real symmetric matrix $S$ has the factorization: $S = Q\Lambda Q^{-1}=Q\Lambda Q^\mathrm{T}$ with orthonormal eigenvectors in $Q$ and real eigenvalues in $\Lambda$. Suppose that $A$ is an $m\times n$ matrix, then $A^{\mathrm{T}}A$ and $AA^{\mathrm{T}}$ are symmetric matrices. So it is not difficult to diagonalize $A^{\mathrm{T}}A$ or $AA^{\mathrm{T}}$ using a matrix with a set of orthonormal eigenvectors in its columns. Suppose that $\boldsymbol v_{1},…\boldsymbol v_{n}$ are orthonormal eigenvectors of $ A^{\rm{T}}A$ and $ \lambda_1,…\lambda_n$ are eigenvalues of $ A^{\rm{T}}A$ . Then for   $1\leq i\leq n$, we have
 
-$$\begin{align*} ||A\boldsymbol v_i||^2 &=(A\boldsymbol v_i)^{\rm{T}}A\boldsymbol v_i =\boldsymbol v_i^{\rm{T}}A^{\rm{T}}A\boldsymbol v_i \\ &=\boldsymbol v_i^{\rm{T}}(\lambda_i\boldsymbol v_i)=\lambda_i\geq0 \end{align*}$$
+$$||A\boldsymbol v_i||^2 =(A\boldsymbol v_i)^{\rm{T}}A\boldsymbol v_i =\boldsymbol v_i^{\rm{T}}A^{\rm{T}}A\boldsymbol v_i \\ =\boldsymbol v_i^{\rm{T}}(\lambda_i\boldsymbol v_i)=\lambda_i\geq0 $$
 
 It is evident that the eigenvalues of $AA^{\rm{T}}$ equal the eigenvalues of $A^{\rm{T}}A$ . Similarly, we can find another orthogonal set $\boldsymbol u_1,…\boldsymbol u_m$ (orthonormal eigenvectors of $AA^{\rm{T}}$ ). Now, we have
 
@@ -57,7 +57,7 @@ $$AA^{\rm{T}}(A\boldsymbol v_i)=A(A^{\rm{T}}A)\boldsymbol v_i = \sigma_i^2(A\bol
 Since $||A\boldsymbol v_i||=\sigma_i$, it is easy to find $$\begin{align}A\boldsymbol v_i=\sigma_i\boldsymbol u_i \end{align}$$ 
 
 Suppose that singular values $\sigma_1$ to $\sigma_r$ are positive numbers. Then the equations (3) show that
-$$ A \left [ \begin{matrix} \boldsymbol v_1,&…&\boldsymbol v_r   \end{matrix} \right ] =  \left [ \begin{matrix} \boldsymbol u_1,&…&\boldsymbol u_r   \end{matrix} \right ] \left [  \begin{matrix} \sigma_1&  \\ &\ddots\\  & &\sigma_r \end{matrix} \right ]$$
+$$ A \left [ \begin{matrix} \boldsymbol v_1,&…&\boldsymbol v_r   \end{matrix} \right ] =  \left [ \begin{matrix} \boldsymbol u_1,&…&\boldsymbol u_r   \end{matrix} \right ]\begin{bmatrix} \sigma_1 &  & \\ & \ddots & \\ & & \sigma_r \end{bmatrix} $$
 
 or $AV_r=U_r\Sigma_r$. Now we include $n-r$ more $\boldsymbol{v}$ 's and $m-r$ more $\boldsymbol u$ 's in orthogonal matrices $V$ and $U$ .Finally, $AV_r=U_r\Sigma_r$ becomes $AV=V\Sigma$ ,i.e. $A=U\Sigma V^{\rm{T}}$.
 
@@ -69,7 +69,7 @@ $U$ is an $m\times m$ orthogonal matrix.
 
 $V$ is an $n\times n$ orthogonal matrix.
 
-$\Sigma$ is an $m\times n$ matrix $ \left [ \begin{matrix} \Sigma_r&0 \\ 0&0\\ \end{matrix} \right ] $ , in which $\Sigma_r= \left [  \begin{matrix} \sigma_1&  \\ &\ddots\\  & &\sigma_r \end{matrix} \right ]$ .
+$\Sigma$ is an $m\times n$ matrix $\begin{bmatrix} \Sigma_r&0 \\ 0&0\\ \end{bmatrix} $ , in which $\Sigma_r= \begin{bmatrix} \sigma_1 &  &\\ &\ddots &\\  & & \sigma_r \end{bmatrix}$ .
 
 We usually put the singular values of $A$ in descending order, $\sigma_1\geq \sigma_2\geq …\sigma_r>0$. This kind of factorization is called the singular value decomposition (SVD).
 
