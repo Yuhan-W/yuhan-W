@@ -70,7 +70,7 @@ $U$ is an $m\times m$ orthogonal matrix.
 
 $V$ is an $n\times n$ orthogonal matrix.
 
-$\Sigma$ is an $m\times n$ matrix $\begin{bmatrix} \Sigma_r&0 \\ 0&0\\ \end{bmatrix} $ , in which $\Sigma_r= \begin{bmatrix} \sigma_1 &  &\\ &\ddots &\\  & & \sigma_r \end{bmatrix}$ .
+$\Sigma$ is an $m\times n$ matrix $\begin{bmatrix} \Sigma_r&0 \\\\ 0&0\\ \end{bmatrix} $ , in which $\Sigma_r= \begin{bmatrix} \sigma_1 &  &\\\\ &\ddots &\\\\  & & \sigma_r \end{bmatrix}$ .
 
 We usually put the singular values of $A$ in descending order, $\sigma_1\geq \sigma_2\geq …\sigma_r>0$. This kind of factorization is called the singular value decomposition (SVD).
 
