@@ -15,7 +15,8 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with `>-`.
-experience:     
+content:     
+    page_type: experience
   - title: 'Student'
     company: 'Xi'an Jiaotong University'
     company_url: ''
