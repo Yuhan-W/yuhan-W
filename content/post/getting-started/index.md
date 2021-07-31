@@ -1,5 +1,5 @@
 ---
-title: An example
+title: The Singular Value Decomposition (SVD)
 subtitle: Linear algebra
 
 # Summary for listings and search engines
@@ -32,25 +32,17 @@ authors:
 - admin
 
 tags:
-- Deep Learning
+- Matrix decomposition
 
 categories:
-- Demo
-- Test
+- Math
+- Linear Algebra
 ---
-
-## Overview
-
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
-
-{{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
 
 The singular value decomposition (SVD) is a factorization of any $m\times n$ matrix and it can be seen as a generalization of eigendecompostion which can only be applied to diagonalizable matrices. And the SVD also has multiple applications in different fields. This article explains the basic theory of the SVD and its geometric interpretation.
 
 ## The Matrices in the SVD
-There is an important fact that every real symmetric matrix $S$ has the factorization: $S = Q\Lambda Q^{-1}=Q\Lambda Q^\mathrm{T}$ with orthonormal eigenvectors in [公式] and real eigenvalues in [公式]. Suppose that [公式] is an [公式] matrix, then [公式] and [公式] are symmetric matrices. So it is not difficult to diagonalize [公式] or [公式] using a matrix with a set of orthonormal eigenvectors in its columns. Suppose that [公式] are orthonormal eigenvectors of [公式] and [公式] are eigenvalues of [公式] . Then for [公式], we have
+There is an important fact that every real symmetric matrix $S$ has the factorization: $S = Q\Lambda Q^{-1}=Q\Lambda Q^\mathrm{T}$ with orthonormal eigenvectors in $Q$ and real eigenvalues in $\Lambda$. Suppose that $A$ is an $m\times n$ matrix, then [公式] and [公式] are symmetric matrices. So it is not difficult to diagonalize [公式] or [公式] using a matrix with a set of orthonormal eigenvectors in its columns. Suppose that [公式] are orthonormal eigenvectors of [公式] and [公式] are eigenvalues of [公式] . Then for [公式], we have
 
 [公式]
 
