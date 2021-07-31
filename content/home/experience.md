@@ -22,6 +22,7 @@ date_format: Jan 2006
 experience:
     - title: Student of Computer Science
       company: Xi'an Jiaotong University
+      company_logo: xjtured
       date_start: 2020-09-01
       date_end: ''
 
