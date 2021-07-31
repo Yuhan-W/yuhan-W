@@ -1,32 +1,30 @@
 ---
 widget: experience
-headless: true  # This file represents a page section.
-weight: 30
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 40
+
 title: Experience
 subtitle:
-# ... Put Your Section Options Here (title etc.) ...
 
-# Date format
+# Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
 date_format: Jan 2006
 
 # Experiences.
-#   Add/remove as many `experience` blocks below as you like.
+#   Add/remove as many `experience` items below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with `>-`.
-content:     
-    page_type: experience
-  - title: 'Student'
-    company: 'Xi'an Jiaotong University'
-    company_url: ''
-    company_logo: xjtured
-    location: 'Xi'an'
-    date_start: '2020-9'
-    date_end: '2024-6'
-    description: 'Computer Science and Technology'
+#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+experience:
+    - title: Student of Computer Science
+      company: Xi'an Jiaotong University
+      date_start: 2020-9
+      date_end: ''
 
 design:
-
- columns: '2'
+  columns: '2'
 ---
