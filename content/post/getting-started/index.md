@@ -44,17 +44,18 @@ The singular value decomposition (SVD) is a factorization of any $m\times n$ mat
 ## The Matrices in the SVD
 There is an important fact that every real symmetric matrix $S$ has the factorization: $S = Q\Lambda Q^{-1}=Q\Lambda Q^\mathrm{T}$ with orthonormal eigenvectors in $Q$ and real eigenvalues in $\Lambda$. Suppose that $A$ is an $m\times n$ matrix, then $A^{\mathrm{T}}A$ and $AA^{\mathrm{T}}$ are symmetric matrices. So it is not difficult to diagonalize $A^{\mathrm{T}}A$ or $AA^{\mathrm{T}}$ using a matrix with a set of orthonormal eigenvectors in its columns. Suppose that $\boldsymbol v_{1},…\boldsymbol v_{n}$ are orthonormal eigenvectors of $ A^{\rm{T}}A$ and $ \lambda_1,…\lambda_n$ are eigenvalues of $ A^{\rm{T}}A$ . Then for   $1\leq i\leq n$, we have
 
-$$||A\boldsymbol v_i||^2 =(A\boldsymbol v_i)^{\rm{T}}A\boldsymbol v_i =\boldsymbol v_i^{\rm{T}}A^{\rm{T}}A\boldsymbol v_i \\ =\boldsymbol v_i^{\rm{T}}(\lambda_i\boldsymbol v_i)=\lambda_i\geq0 $$
+$$||A\boldsymbol v_i||^2 =(A\boldsymbol v_i)^{\rm{T}}A\boldsymbol v_i =\boldsymbol v_i^{\rm{T}}A^{\rm{T}}A\boldsymbol v_i =\boldsymbol v_i^{\rm{T}}(\lambda_i\boldsymbol v_i)=\lambda_i\geq0 $$
 
 It is evident that the eigenvalues of $AA^{\rm{T}}$ equal the eigenvalues of $A^{\rm{T}}A$ . Similarly, we can find another orthogonal set $\boldsymbol u_1,…\boldsymbol u_m$ (orthonormal eigenvectors of $AA^{\rm{T}}$ ). Now, we have
 
-$$\begin{align}A^{\rm{T}}A\boldsymbol v_i=\sigma_i^2\boldsymbol v_i\\AA^{\rm{T}}\boldsymbol u_ i=\sigma_i^2\boldsymbol u_i\end{align}$$
+$$A^{\rm{T}}A\boldsymbol v_i=\sigma_i^2\boldsymbol v_i\ (1)$$
+$$AA^{\rm{T}}\boldsymbol u_ i=\sigma_i^2\boldsymbol u_i\ (2)$$
 
 The $\sigma$ 's are singular values, square roots of the eigenvalues of $A^{\rm{T}}A$ and $ AA^{\rm{T}}$ . From equations(1), we can get
 
 $$AA^{\rm{T}}(A\boldsymbol v_i)=A(A^{\rm{T}}A)\boldsymbol v_i = \sigma_i^2(A\boldsymbol v_i)$$
 
-Since $||A\boldsymbol v_i||=\sigma_i$, it is easy to find $$\begin{align}A\boldsymbol v_i=\sigma_i\boldsymbol u_i \end{align}$$ 
+Since $||A\boldsymbol v_i||=\sigma_i$, it is easy to find $$A\boldsymbol v_i=\sigma_i\boldsymbol u_i\ (3)$$ 
 
 Suppose that singular values $\sigma_1$ to $\sigma_r$ are positive numbers. Then the equations (3) show that
 $$ A \left [ \begin{matrix} \boldsymbol v_1,&…&\boldsymbol v_r   \end{matrix} \right ] =  \left [ \begin{matrix} \boldsymbol u_1,&…&\boldsymbol u_r   \end{matrix} \right ]\begin{bmatrix} \sigma_1 &  & \\ & \ddots & \\ & & \sigma_r \end{bmatrix} $$
