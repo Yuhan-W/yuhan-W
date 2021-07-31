@@ -23,9 +23,9 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Figure 1'
+  caption: ''
   focal_point: ""
-  placement: 2
+  placement: 1
   preview_only: false
 
 authors:
@@ -48,7 +48,8 @@ $$||A\boldsymbol v_i||^2 =(A\boldsymbol v_i)^{\rm{T}}A\boldsymbol v_i =\boldsymb
 
 It is evident that the eigenvalues of $AA^{\rm{T}}$ equal the eigenvalues of $A^{\rm{T}}A$ . Similarly, we can find another orthogonal set $\boldsymbol u_1,…\boldsymbol u_m$ (orthonormal eigenvectors of $AA^{\rm{T}}$ ). Now, we have
 
-$$A^{\rm{T}}A\boldsymbol v_i=\sigma_i^2\boldsymbol v_i\ (1) \\\\AA^{\rm{T}}\boldsymbol u_ i=\sigma_i^2\boldsymbol u_i\ (2)$$
+$$A^{\rm{T}}A\boldsymbol v_i=\sigma_i^2\boldsymbol v_i\ (1) $$
+$$AA^{\rm{T}}\boldsymbol u_ i=\sigma_i^2\boldsymbol u_i\ (2)$$
 
 The $\sigma$ 's are singular values, square roots of the eigenvalues of $A^{\rm{T}}A$ and $ AA^{\rm{T}}$ . From equations(1), we can get
 
