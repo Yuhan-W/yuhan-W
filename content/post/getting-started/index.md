@@ -58,7 +58,7 @@ $$AA^{\rm{T}}(A\boldsymbol v_i)=A(A^{\rm{T}}A)\boldsymbol v_i = \sigma_i^2(A\bol
 Since $||A\boldsymbol v_i||=\sigma_i$, it is easy to find $$A\boldsymbol v_i=\sigma_i\boldsymbol u_i\ (3)$$ 
 
 Suppose that singular values $\sigma_1$ to $\sigma_r$ are positive numbers. Then the equations (3) show that
-$$ A \left [ \begin{matrix} \boldsymbol v_1,&…&\boldsymbol v_r   \end{matrix} \right ] =  \left [ \begin{matrix} \boldsymbol u_1,&…&\boldsymbol u_r   \end{matrix} \right ]\begin{bmatrix} \sigma_1 &  & \\ & \ddots & \\ & & \sigma_r \end{bmatrix} $$
+$$ A \left [ \begin{matrix} \boldsymbol v_1,&…&\boldsymbol v_r   \end{matrix} \right ] =  \left [ \begin{matrix} \boldsymbol u_1,&…&\boldsymbol u_r   \end{matrix} \right ]\begin{bmatrix} \sigma_1 &  & \\\\ & \ddots & \\\\ & & \sigma_r \end{bmatrix} $$
 
 or $AV_r=U_r\Sigma_r$. Now we include $n-r$ more $\boldsymbol{v}$ 's and $m-r$ more $\boldsymbol u$ 's in orthogonal matrices $V$ and $U$ .Finally, $AV_r=U_r\Sigma_r$ becomes $AV=V\Sigma$ ,i.e. $A=U\Sigma V^{\rm{T}}$.
 
