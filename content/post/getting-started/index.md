@@ -42,7 +42,7 @@ categories:
 The singular value decomposition (SVD) is a factorization of any $m\times n$ matrix and it can be seen as a generalization of eigendecompostion which can only be applied to diagonalizable matrices. And the SVD also has multiple applications in different fields. This article explains the basic theory of the SVD and its geometric interpretation.
 
 ## The Matrices in the SVD
-There is an important fact that every real symmetric matrix $S$ has the factorization: $S = Q\Lambda Q^{-1}=Q\Lambda Q^\mathrm{T}$ with orthonormal eigenvectors in $Q$ and real eigenvalues in $\Lambda$. Suppose that $A$ is an $m\times n$ matrix, then [公式] and [公式] are symmetric matrices. So it is not difficult to diagonalize [公式] or [公式] using a matrix with a set of orthonormal eigenvectors in its columns. Suppose that [公式] are orthonormal eigenvectors of [公式] and [公式] are eigenvalues of [公式] . Then for [公式], we have
+There is an important fact that every real symmetric matrix $S$ has the factorization: $S = Q\Lambda Q^{-1}=Q\Lambda Q^\mathrm{T}$ with orthonormal eigenvectors in $Q$ and real eigenvalues in $\Lambda$. Suppose that $A$ is an $m\times n$ matrix, then $A^{\mathrm{T}}A$ and $AA^{\mathrm{T}}$ are symmetric matrices. So it is not difficult to diagonalize $A^{\mathrm{T}}A$ or $AA^{\mathrm{T}}$ using a matrix with a set of orthonormal eigenvectors in its columns. Suppose that $\boldsymbol {v_{1}},…\boldsymbol {v_{n}}$ are orthonormal eigenvectors of [公式] and [公式] are eigenvalues of [公式] . Then for [公式], we have
 
 [公式]
 
