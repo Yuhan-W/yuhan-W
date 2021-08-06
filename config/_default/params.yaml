@@ -46,7 +46,7 @@ contact_links:
     icon_pack: fab
     name: Facebook
     link: 'skype:echo123?call'
-  - - icon: linkedin
+  - icon: linkedin
     icon_pack: fab
     name: LinkedIn
     link: https://www.linkedin.com/in/yuhan-wang-848a4717a/
