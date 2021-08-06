@@ -21,12 +21,12 @@ twitter: ''
 # Contact (edit or remove options as required)
 
 email: cnwangyuhan@gmail.com
-phone: +86 13991991435
+phone: +86 139-9199-1435
 address:
-  street: Jiaotong University
+  street: No.28, West Xianning Road
   city: Xi'an 
   region: Shaanxi
-  postcode: '710075'
+  postcode: '710049'
   country: China
   country_code: CN
 coordinates:
@@ -46,14 +46,14 @@ contact_links:
     icon_pack: fab
     name: Facebook
     link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+  #- icon: keybase
+   # icon_pack: fab
+    #name: Chat on Keybase
+    #link: 'https://keybase.io/'
+  #- icon: comments
+   # icon_pack: fas
+   # name: Discuss on Forum
+   # link: 'https://discourse.gohugo.io'
 
 # Site header
 
