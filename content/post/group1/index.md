@@ -1,6 +1,6 @@
 ---
-title: Groups (Ⅰ)
-subtitle: Abstract algebra
+title: Algebra:Subgroups and homomorphisms
+subtitle: Group theory
 
 # Summary for listings and search engines
 summary: This article is about quotient groups and homomorphisms of groups.
@@ -54,7 +54,7 @@ Now we have two kinds of equivalence relations on group $G$: right/left conguren
 ### Theorem 1
 The equivalence class of $a\in G$ under right(left) congurence modulo $H$ is $$Ha=\lbrace ha\ |\ h\in H\rbrace \Big(aH=\lbrace ah\ |\ h\in H\rbrace\Big)$$
 **Proof** The equivalence class of $a\in G$ under right congurence modulo $H$ is $$\begin{align*}\lbrace b\in G \ |\ b\equiv_r a(\bmod H)\rbrace&=\lbrace b\in G\ |\ ba^{-1}\in H\rbrace \\\\&=\lbrace b\in G\ |\ ba^{-1}=h\in H\rbrace \\\\&=\lbrace b\in G\ |\ b=ha;h\in H\rbrace \\\\&=\lbrace ha\ |\ h\in H\rbrace =Ha \ \ \ \square\end{align*}$$ 
-Now a quotient set $G/H$ containing right cosets (or left cosets) is created, but we do not know whether $G/H$ is a group under the binary operation in $G$. An ideal case is that for $\forall Ha, Hb\in G/H$, we have $Ha\cdot Hb=Hab$, which makes $G/H$ is a group under the binary operation in $G$. A certain kind of subgroups make this possible.
+Now a quotient set $G/H$ containing right cosets (or left cosets) is created, but we do not know whether $G/H$ is a group under the binary operation in $G$. An ideal case is that for $\forall Ha, Hb\in G/H$, we have $Ha\cdot Hb=Hab$, which makes $G/H$ a group under the binary operation in $G$. A certain kind of subgroups make this possible.
 
 ### Theorem 2
 Let $H$ be a subgroup of $G$. The following conditions are equivalent.
