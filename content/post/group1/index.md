@@ -53,7 +53,7 @@ Now we have two kinds of equivalence relations on group $G$: right/left conguren
 
 ### Theorem 1
 The equivalence class of $a\in G$ under right(left) congurence modulo $H$ is $$Ha=\lbrace ha\ |\ h\in H\rbrace \Big(aH=\lbrace ah\ |\ h\in H\rbrace\Big)$$
-**Proof** The equivalence class of $a\in G$ under right congurence modulo $H$ is $$\begin{align*}\{b\in G \ |\ b\equiv_r a(\bmod H)\}&=\{b\in G\ |\ ba^{-1}\in H\}\\\\&=\{b\in G\ |\ ba^{-1}=h\in H\}\\\\&=\{b\in G\ |\ b=ha;h\in H\}\\\\&=\{ha\ |\ h\in H\}=Ha \ \ \ \square\end{align*}$$ 
+**Proof** The equivalence class of $a\in G$ under right congurence modulo $H$ is $$\begin{align*}\lbrace b\in G \ |\ b\equiv_r a(\bmod H)\rbrace&=\lbrace b\in G\ |\ ba^{-1}\in H\rbrace \\\\&=\lbrace b\in G\ |\ ba^{-1}=h\in H\rbrace \\\\&=\lbrace b\in G\ |\ b=ha;h\in H\rbrace \\\\&=\lbrace ha\ |\ h\in H\rbrace =Ha \ \ \ \square\end{align*}$$ 
 Now a quotient set $G/H$ containing right cosets (or left cosets) is created, but we do not know whether $G/H$ is a group under the binary operation in $G$. An ideal case is that for $\forall Ha, Hb\in G/H$, we have $Ha\cdot Hb=Hab$, which makes $G/H$ is a group under the binary operation in $G$. A certain kind of subgroups make this possible.
 
 ### Theorem 2
@@ -79,7 +79,7 @@ Therefore, we are able to obtain a quotient set $G/H$ of group $G$ that is also 
 Let $G$​ and $G'$​ be groups. A function $f: G \rightarrow G'$​​​​​​​​​​ is a **homomorphism** provided $$ f(ab)=f(a)f(b),\ \  \  \forall a, b \in G $$​
 $f$ is called an **isomorphism** if it is bijective.
 
-It is apparent that $f:G\rightarrow G'$ is a monomorphism if and only if $\mathrm{Ker} f=\{e\}$, while the following theorem makes an isomorphism possible when $\mathrm{Ker} f\neq\{e\}$ by creating a quotient group $G/ \mathrm{Ker}\ f$ of group $G$.
+It is apparent that $f:G\rightarrow G'$ is a monomorphism if and only if $\mathrm{Ker} f=\lbrace e\rbrace$, while the following theorem makes an isomorphism possible when $\mathrm{Ker} f\neq\lbrace e\rbrace$ by creating a quotient group $G/ \mathrm{Ker}\ f$ of group $G$.
 ### First Isomorphism Theorem
 if $f:G \rightarrow G'$ is a homomorphism of groups, then $f$ induces an **isomorphism** $$G/ \mathrm{Ker}\ f\cong \mathrm{Im}\ f$$
 **proof** Let $N=\mathrm{Ker}\ f$, $n \in N$. If $b\in aN$, then $f(b)=f(an)=f(a)f(n)=f(a)$. Therefore, we can define map $\bar f:G/N \rightarrow G'$ as $$\bar f(aN)=f(a)$$ Since $$\bar f(aNbN)=\bar f(abN)=f(ab)=f(a)f(b)=\bar f(aN)\bar f(bN)$$ $\bar f$ is a homomorphism and $\mathrm{Im}\ \bar  f=\mathrm{Im}\ f$. If $\bar f(aN)=\bar f(bN)$, then $$f(a)=f(b) \Rightarrow b\in aN \Rightarrow aN=bN$$. So $\bar f$ is a monomorphism. Let $G'=\mathrm{Im}\ f$. Now $\bar f$ is an epimorphism. Finally, an **isomorphism** $$\bar f:G/ \mathrm{Ker}\ f\rightarrow \mathrm{Im}\ f$$is induced.$\ \ \ \square$
