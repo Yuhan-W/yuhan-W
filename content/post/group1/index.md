@@ -52,7 +52,7 @@ Let $H$ be a subgroup of group $G$, and $a, b\in G$. If $ab^{-1} \in H$, $a$ is 
 Now we have two kinds of equivalence relations on group $G$: right/left congurence modulo $H$ (easy to prove). So it is a natural idea that we can create a quotient set $G/H$ based on the obtained equivalence relation.
 
 ### Theorem 1
-The equivalence class of $a\in G$ under right(left) congurence modulo $H$ is $$Ha=\{ha\ |\ h\in H\}\Big(aH=\{ah\ |\ h\in H\}\Big)$$
+The equivalence class of $a\in G$ under right(left) congurence modulo $H$ is $$Ha=\lbrace ha\ |\ h\in H\rbrace \Big(aH=\lbrace ah\ |\ h\in H\rbrace\Big)$$
 **Proof** The equivalence class of $a\in G$ under right congurence modulo $H$ is $$\begin{align*}\{b\in G \ |\ b\equiv_r a(\bmod H)\}&=\{b\in G\ |\ ba^{-1}\in H\}\\\\&=\{b\in G\ |\ ba^{-1}=h\in H\}\\\\&=\{b\in G\ |\ b=ha;h\in H\}\\\\&=\{ha\ |\ h\in H\}=Ha \ \ \ \square\end{align*}$$ 
 Now a quotient set $G/H$ containing right cosets (or left cosets) is created, but we do not know whether $G/H$ is a group under the binary operation in $G$. An ideal case is that for $\forall Ha, Hb\in G/H$, we have $Ha\cdot Hb=Hab$, which makes $G/H$ is a group under the binary operation in $G$. A certain kind of subgroups make this possible.
 
