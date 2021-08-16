@@ -30,8 +30,8 @@ address:
   country: China
   country_code: CN
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
+  latitude: '34.2453'
+  longitude: '108.9864'
 #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 #office_hours:
   #- 'Monday 10:00 to 13:00'
@@ -63,7 +63,7 @@ contact_links:
 
 main_menu:
   enable: true
-  align: 2
+  align: 1
   show_logo: true
   show_language: false
   show_day_night: true
