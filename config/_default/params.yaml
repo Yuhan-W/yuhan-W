@@ -63,7 +63,7 @@ contact_links:
 
 main_menu:
   enable: true
-  align: l
+  align: 2
   show_logo: true
   show_language: false
   show_day_night: true
@@ -145,7 +145,7 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: ''
+  provider: 'mapbox'
   api_key: ''
   zoom: 15
 marketing:
