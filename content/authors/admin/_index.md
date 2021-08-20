@@ -31,7 +31,7 @@ education:
   #- course: MEng in Artificial Intelligence
    # institution: Massachusetts Institute of Technology
     #year: 2009
-  - course: B.Eng in Computer Science
+  - course: B.Eng. in Computer Science
     institution: Xi'an Jiaotong University
     year: 2020-present
 
