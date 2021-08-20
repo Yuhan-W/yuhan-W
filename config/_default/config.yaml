@@ -5,7 +5,7 @@
 
 title: Yuhan Wang # Website name
 baseurl: 'https://example.com/' # Website URL
-copyright: '© {2021} Yuhan Wang' #Footer text, e.g. '© {year} Me'
+copyright: '© 2021 Yuhan Wang' #Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
