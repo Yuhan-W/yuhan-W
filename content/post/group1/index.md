@@ -1,5 +1,5 @@
 ---
-title: Algebra: Subgroups and homomorphisms
+title: 'Algebra: Subgroups and homomorphisms'
 subtitle: Group theory
 
 # Summary for listings and search engines
