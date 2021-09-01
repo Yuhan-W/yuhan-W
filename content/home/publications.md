@@ -38,5 +38,5 @@ design:
 ---
 
 
-## Discover relevant content by [filtering publications](./publication/).
+### Discover relevant content by [filtering publications](./publication/).
 
