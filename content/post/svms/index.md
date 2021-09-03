@@ -43,9 +43,9 @@ categories:
 ### Lagrange duality
 Consider an optimization problem of the following form:
 $$ \min_{w} f(w)$$
-$$
-s.t.\ g_i(w)\leq0,\ i=1, 2, \dots,k\\\\
-\ \ \ \ \ \ \ h_i(w)=0, \ i=1, 2,\dots, l$$
+$$\begin{align*}
+s.t.\ g_i(w)&\leq0,\ i=1, 2, \dots,k\\\\
+h_i(w)&=0, \ i=1, 2,\dots, l\end{align*}$$
 To solve this problem, we define the generalized Lagrangian:
 $$ \mathcal{L}(w, \alpha, \beta) = f(w) + \sum_{i=1}^{k}\alpha_ig_i(w) + \sum_{i=1}^l \beta_ih_i(w).$$
 Let's define a function $\theta_{\mathcal{P}}(w)$ as
