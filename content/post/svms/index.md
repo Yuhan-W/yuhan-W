@@ -42,7 +42,8 @@ categories:
 
 ### Lagrange duality
 Consider an optimization problem of the following form:
-$$ \min_{w} f(w)\\\\
+$$ \min_{w} f(w)$$
+$$
 s.t.\ g_i(w)\leq0,\ i=1, 2, \dots,k\\\\
 \ \ \ \ \ \ \ h_i(w)=0, \ i=1, 2,\dots, l$$
 To solve this problem, we define the generalized Lagrangian:
