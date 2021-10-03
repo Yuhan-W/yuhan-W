@@ -19,10 +19,10 @@ home_section_even = "rgb(247, 247, 247)"
 
 [dark]
 
-menu_primary = "#000"
-menu_text = "#000"
-menu_text_active = "#000"
-menu_title = "#000"
+menu_primary = "rgb(20, 22, 34)"
+menu_text = "rgba(255,255,255,0.6)"
+menu_text_active = "rgba(255,255,255,1)"
+menu_title = "#fff"
 
 # Backgrounds
 
