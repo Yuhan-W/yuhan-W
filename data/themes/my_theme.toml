@@ -18,5 +18,13 @@ home_section_odd = "rgb(255, 255, 255)"
 home_section_even = "rgb(247, 247, 247)"
 
 [dark]
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
+
+menu_primary = "#fcee0a"
+menu_text = "#000"
+menu_text_active = "#000"
+menu_title = "#000"
+
+# Backgrounds
+background = "#000"
+home_section_odd = "#000"
+home_section_even = "#000"
