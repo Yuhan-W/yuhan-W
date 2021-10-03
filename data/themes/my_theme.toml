@@ -2,12 +2,12 @@
 name = "my_theme"
 
 # Is theme light or dark?
-light = true
+light = false
 
 # Primary
-# primary = "#1565c0"
+# primary = "#000"
 
-menu_primary = "#fcee0a"
+menu_primary = "#000"
 menu_text = "#000"
 menu_text_active = "#000"
 menu_title = "#000"
