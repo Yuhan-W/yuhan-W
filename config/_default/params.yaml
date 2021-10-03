@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: cyberpunk
+theme: my_theme
 day_night: true
 font: 'classic'
 font_size: l
