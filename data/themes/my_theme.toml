@@ -26,9 +26,9 @@ menu_title = "#fff"
 
 # Backgrounds
 
-background = "#000"
-home_section_odd = "#000"
-home_section_even = "#000"
+#background = "#000"
+home_section_odd = "rgb(0, 0, 0)"
+home_section_even = "rgb(4, 4, 4)"
 
 
 
