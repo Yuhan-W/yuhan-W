@@ -7,15 +7,15 @@ Yuhan Wang is currently a student of [computer science](http://www.cs.xjtu.edu.c
 - Machine Learning
 - Deep Learning
 - Computer Vision
-
+<!--
 ## Programming Languages
 - C/C++
 - Python
 - Java
 - MATLAB
-
+-->
 ## Statistics
 
-![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=yuhan-W&theme=radical)
+![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=yuhan-W&theme=vue&layout=compact)
 
 <!--![Stats](https://github-readme-stats.vercel.app/api?username=yuhan-W)-->
