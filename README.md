@@ -15,7 +15,7 @@ Yuhan Wang is currently a student of [computer science](http://www.cs.xjtu.edu.c
 - MATLAB
 
 ## Statistics
-![Stats](https://github-readme-stats.vercel.app/api?username=yuhan-W)
+
 ![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=yuhan-W&hide=jupyternotebook,ipynb,html&layout=compact)
 
-<!--comment-->
+<!--![Stats](https://github-readme-stats.vercel.app/api?username=yuhan-W)-->
