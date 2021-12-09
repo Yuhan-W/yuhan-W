@@ -1,5 +1,5 @@
 ---
-title: 'Algebra: Cyclic Groups'
+title: 'Algebra: Cyclic groups'
 subtitle: Group theory
 
 # Summary for listings and search engines
