@@ -7,6 +7,7 @@ Yuhan Wang is currently a student of [computer science](http://www.cs.xjtu.edu.c
 - Machine Learning
 - Deep Learning
 - Computer Vision
+- Natural Language Processing
 <!--
 ## Programming Languages
 - C/C++
