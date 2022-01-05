@@ -1,7 +1,7 @@
 
 # [Yuhan Wang](https://yuhanwang.netlify.app)
 
-Yuhan Wang is currently a student of [computer science](http://www.cs.xjtu.edu.cn) at [Xi’an Jiaotong University](http://www.xjtu.edu.cn). His research interests include machine learning, deep learning, and artificial intelligence.
+Yuhan Wang is currently an undergraduate student of [computer science](http://www.cs.xjtu.edu.cn) @ [Xi’an Jiaotong University](http://www.xjtu.edu.cn). His research interests include machine learning, deep learning, and natural language processing.
 
 ## Interests 
 - Machine Learning
