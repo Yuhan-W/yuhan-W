@@ -14,13 +14,13 @@ organizations:
   url: http://www.xjtu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning, deep learning and artificial intelligence.
+bio: My research interests include machine learning, deep learning and natural language processing.
 
 # Interests to show in About widget
 interests:
 - Machine Learning
 - Deep Learning
-- Artificial Intelligence
+- Natural Language Processing
 
 # Education to show in About widget
 education:
@@ -70,6 +70,6 @@ email: ""
 highlight_name: false
 ---
 
-Yuhan Wang is currently a student of [computer science](http://www.cs.xjtu.edu.cn) at [Xi'an Jiaotong University](http://www.xjtu.edu.cn). His research interests include machine learning, deep learning, and artificial intelligence.
+Yuhan Wang is currently a student of [computer science](http://www.cs.xjtu.edu.cn) at [Xi'an Jiaotong University](http://www.xjtu.edu.cn). His research interests include machine learning, deep learning, and natural language processing.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
