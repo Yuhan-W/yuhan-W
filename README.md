@@ -23,3 +23,12 @@ I'm currently a student of computer science [@Xi’an Jiaotong University](http:
 ![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=yuhan-W&hide=javascript&theme=vue&layout=compact)
 
 <!--![Stats](https://github-readme-stats.vercel.app/api?username=yuhan-W)-->
+
+
+## TeX test
+
+$f(x) = \sin x$ this is an inline function.
+
+$$
+\nabla f = \( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial t}\)
+$$
