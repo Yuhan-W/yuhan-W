@@ -23,6 +23,3 @@ I'm currently a student of computer science [@Xi’an Jiaotong University](http:
 ![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=yuhan-W&hide=javascript&theme=vue&layout=compact)
 
 <!--![Stats](https://github-readme-stats.vercel.app/api?username=yuhan-W)-->
-
-## test
-$$ f(x) = 1 + x^2 + x^3 $$
