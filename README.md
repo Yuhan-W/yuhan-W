@@ -16,8 +16,9 @@ I'm currently a student of computer science [@Xi’an Jiaotong University](http:
 - Java
 - MATLAB
 -->
-
+<!--
 ## Statistics
+<!--
 ![Stats](https://github-readme-stats.vercel.app/api?username=Yuhan-W&hide=stars,prs&theme=vue)
 
 ![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=Yuhan-W&hide=javascript&theme=vue&layout=compact)
