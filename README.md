@@ -1,14 +1,7 @@
 
-Hi! I'm Yuhan Wang.👋
+Hi!👋
 
-I'm a CS undergrad @UW-Madison. My research interests include machine learning and NLP. 
-
-### Interests 
-- Machine Learning
-- Deep Learning
-- Natural Language Processing
-- Computer Vision
-
+CS undergrad @UW-Madison. Research interests include machine learning and NLP. 
 
 ## Statistics
 
