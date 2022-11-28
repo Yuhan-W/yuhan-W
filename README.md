@@ -1,7 +1,7 @@
 
 Hi! I'm Yuhan Wang.👋
 
-I'm currently a CS undergraduate student. My research interests include machine learning, deep learning, and natural language processing. Please check my [personal website](https://yuhanwang.netlify.app) for more information.
+I'm a CS undergrad @UW-Madison. My research interests include machine learning and NLP. 
 
 ### Interests 
 - Machine Learning
@@ -9,16 +9,9 @@ I'm currently a CS undergraduate student. My research interests include machine 
 - Natural Language Processing
 - Computer Vision
 
-<!--
-## Programming Languages
-- C/C++
-- Python
-- Java
-- MATLAB
--->
-<!--
+
 ## Statistics
-<!--
+
 ![Stats](https://github-readme-stats.vercel.app/api?username=Yuhan-W&hide=stars,prs&theme=vue)
 
 ![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=Yuhan-W&hide=javascript&theme=vue&layout=compact)
