@@ -1,5 +1,5 @@
 
-<h1>Hi! I'm Yuhan Wang👋</h1>
+<h1 align="center">Hi! I'm Yuhan Wang👋</h1>
 
 I am a CS undergrad @UW-Madison. Research interests include machine learning and NLP. 
 
