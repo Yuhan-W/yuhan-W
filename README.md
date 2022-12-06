@@ -1,7 +1,7 @@
 
 <h1>Hi!👋</h1>
 
-I am a CS undergrad @UW-Madison. Research interests include machine learning and NLP. 
+I am a CS undergrad [@UW-Madison](https://www.cs.wisc.edu). Research interests include machine learning and NLP. 
 
 ## Statistics
 
