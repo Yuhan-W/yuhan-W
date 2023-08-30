@@ -1,7 +1,7 @@
 
 <h1>Hi!👋</h1>
 
-I am an undergrad [@UW-Madison](https://www.cs.wisc.edu) interested in math and computer science. 
+I'm an undergrad [@UW-Madison](https://www.wisc.edu) studying math and computer science. 
 
 ## Statistics
 
